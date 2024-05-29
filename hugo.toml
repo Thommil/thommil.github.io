@@ -1,0 +1,48 @@
+baseURL = "https://thommil.github.io"
+languageCode = "en-us"
+title = "Thommil"
+theme = "hugo-theme-nix"
+enableRobotsTXT = true
+pluralizeListTitles = false
+
+[menu]
+  [[menu.header]]
+    name = "dev"
+    weight = 1
+    url = "dev"
+  [[menu.header]]
+    name = "retrogaming"
+    weight = 2
+    url = "retrogaming"
+#  [[menu.header]]
+#    name = "about"
+#    weight = 3
+#    url = "about"
+
+[params]
+  GithubID = "thommil"
+  LinkedInID = "thomas-millet-77690682"
+  Name = "Thommil"
+  HeaderUsername = "thommil"
+  HeaderHostname = "thommil.github.io"
+  ProfilePicture = "/profile.png"
+  Favicon = "/favicon.ico"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
