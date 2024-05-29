@@ -170,7 +170,7 @@ The reason is simple, to have fun with the language which offers a real breath o
 
 So I decided to do a real painstaking job, start from an existing base with a good potential [G3N](https://github.com/g3n/engine), improve portability (Mobile and Web) and add features, try it below (Chrome & Firefox only):
 
-{{< iframe "https://tge-demo.thommil.com" >}}
+{{< iframe "https://thommil.github.io/tge" >}}
 
 This project motivated the original G3N team to improve the portability of their engine based on my work and
 the few stars awarded to my Github make up for the time spent reviewing my math basics and struggling with 3D authoring tools:
